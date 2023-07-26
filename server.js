@@ -12,6 +12,6 @@ const signale = new signale_1.Signale();
 app.use(express_1.default.json());
 app.use("/sensores", SensorRouter_1.sensorRouter);
 app.use("/load", LoadRouter_1.loadRouter);
-app.listen(3001, () => {
-    signale.success("Server online in port 3001");
+app.listen(3002, () => {
+    signale.success("Server online in port 3002");
 });
